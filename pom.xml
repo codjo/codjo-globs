@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+     | POM Relationships
+     -->
+
+    <parent>
+        <groupId>net.codjo.pom</groupId>
+        <artifactId>codjo-pom-library</artifactId>
+        <version>SNAPSHOT</version>
+    </parent>
+    <groupId>net.codjo.globs</groupId>
+    <artifactId>codjo-globs</artifactId>
+    <version>1.7-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.crossbowlabs</groupId>
+            <artifactId>globs</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.saxstack</groupId>
+            <artifactId>saxstack</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.codjo.mad</groupId>
+            <artifactId>codjo-mad-gui</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.codjo.mad</groupId>
+            <artifactId>codjo-mad-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.codjo.crypto</groupId>
+            <artifactId>codjo-crypto-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.codjo.mad</groupId>
+            <artifactId>codjo-mad-client</artifactId>
+            <classifier>tests</classifier>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.codjo.test</groupId>
+            <artifactId>codjo-test-common</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!--
+    | Project Information
+    -->
+
+    <name>Lib &gt; Globs</name>
+    <description>Librairie pour gerer la couche entre le monde globs et la base (Mad)</description>
+    <inceptionYear>2007</inceptionYear>
+
+    <!--
+    | Environment Information
+    -->
+
+    <scm>
+        <connection>scm:git:https://github.com/codjo/codjo-globs.git</connection>
+        <developerConnection>scm:git:https://github.com/codjo/codjo-globs.git</developerConnection>
+        <url>https://github.com/codjo/codjo-globs</url>
+    </scm>
+
+</project>

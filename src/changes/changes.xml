@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+    <properties>
+        <title>Changes</title>
+    </properties>
+    <body>
+         <release version="1.0" date="svn" description="Evolution">
+            <action dev="crego, medina" type="add">
+              Bootstrap.
+            </action>
+        </release>
+    </body>
+</document>
